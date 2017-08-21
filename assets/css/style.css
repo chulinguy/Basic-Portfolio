@@ -83,6 +83,7 @@ a {
 .odd{
   background-color: #FCC000;
   height: 100%;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,6 +93,7 @@ a {
 .even{
   background-color: #E64D01;
   height: 100%;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,6 +150,26 @@ a {
   margin-top:4vh;
   min-height: 75px;
   min-width: 75px
+}
+
+#social-network {
+  display:block;
+
+}
+
+#linkedin {
+  height: 10vh;
+  width: auto;
+}
+
+#github {
+  height: 9vh;
+  width: auto;
+}
+
+#github-a, #linkedin-a {
+  display:inline-block;
+  margin: auto;
 }
 
 ::-webkit-input-placeholder { color:#D3D3D3; }
