@@ -4,177 +4,177 @@ html {
 }
 
 body {
-  background-image: url(../images/concrete-texture.png);
-  color: #777777;
+  background-color: #F8E0B4;
+  font-family: Helvetica, Arial;
+}
+
+h3{
+  font-size: 1.2em;
 }
 
 a {
   text-decoration:  none;
-  color: #777777;
+  color: black
   } 
 
-header {
-  margin-top: 0px; 
-  background-color: #ffffff;
-  width: 100%;
-  height: 90px;
-  padding-left: auto;
-  padding-right: auto;
-  border-bottom: solid grey
-}
-
-footer {
-  position: absolute;
-  clear: both;
-  width: 100%;
-  bottom: 0px;
-  height: 50px;
-  background-color: grey;
-  border-top: 10px;
-  border-top-color: #4aaaa5;
-  border-style: solid;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 40px;
-  font-size: 10px;
-  display: block;
-}
-
-textarea, input{
-  padding: 10px; 
-  width: 570px;
-  border: 1px solid #D3D3D3;
-}
-
-textarea {
-  height: 200px;
-}
-
-button {
-    background-color: #4aaaa5;
-    border: none;
-    color: #ffffff;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-
-.nav {
-  float:right;
-}
-
-.navs {
-  height: 100%;
-  /*background-color: red;*/
-  width: 760px;
-  float: left;
-  line-height: 90px; 
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif
-}
-.navcontent {
-  width: 960px;
-  height: 100%;
-  background-color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 14px;
-}
-
-.yourname {
-  background-color: #4aaaa5;
-  color: #ffffff;
-  width: 200px;
-  height: 100%;
-  text-align: center;
-  font-size: 28px;
-  line-height: 325%;
-  float: left;
-}
-
-.main {
-  margin-top: 35px;
-  width: 960px;
-  height: 605px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 110px;
-}
-
-.teal {
-  color: #4aaaa5;
-}
-
-.sidebarh, .aboutmeh, .yourname {
-  font-family: 'Georgia', Times, Times New Roman, serif;
+ .main {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 0
 } 
 
-.sidebarh {
-  padding: 10px 10px 25px 10px;
-  font-size: 18px;
-  border-bottom: 1px;
-  border-bottom-color: grey;
-  border-style: solid;
+#nav{
+  margin: 0
 }
 
-.sidebar {
-  background: #ffffff;
-  width: 210px;
-  height: 150px;
-  float: right;
-  padding: 30px;
+.nav{
+  position: absolute;
+  z-index: 10;
+  left: 46%;
+  width: 0; 
+  height: 0; 
+  border-left: 4vw solid transparent;
+  border-right: 4vw solid transparent;
+  
+  border-top: 5vh solid #F8E0B4;
 }
 
-.aboutmediv{
-  padding: 30px;
-  width: 590px;
-  background: #ffffff;
-  float: left;
+.dropdown {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  bottom: 5vh;
+  right: 2vw;
+  position:relative
 }
 
-.contactmediv{
-  padding: 30px;
-  width: 590px;
-  background: #ffffff;
-  float: left;
-  height: 545px;
-  margin-bottom: 10px;
+.dropdown-menu {
+  position: absolute;
+  width: 40vw;
+  padding: 0;
+  right: 30vw
 }
 
-.aboutmeh {
-  font-size: 22px;
-  border-bottom: 2px;
-  border-bottom-color: grey;
-  border-style: solid;
-  margin-top: 10px;
-  padding-bottom: 30px;
+#burger-a {
+  padding: 0 2vw 0 2vw
 }
 
-.aboutmep {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 200%;
-  margin-top:20px
+#burger-a:hover{
+  background-color: transparent
 }
 
-.bold {
-  font-weight: bold;
+.glyphicon-menu-hamburger {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon {
-  width: 30%;
+#row1, #row2, #row3, #row4 {
+  height: 40vh; 
+  z-index: -1;
+  margin: 0
+}
+
+.odd{
+  background-color: #FCC000;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.even{
+  background-color: #E64D01;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: lightgray;
+  padding:0
+}
+
+#pattern{
+  background-image: url(../images/maple.jpg)
+}
+
+#welcome-message {
+  text-align: left
+}
+
+#philosophy-message {
+  text-align: right
+}
+
+#row-about {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+#about-me-left {
+  height: 0
+}
+
+
+#about-me-right, #about-me-left {
+  -webkit-flex:1;
+  flex: 1;
+  text-align: left;
+  display: block;
+  padding: 5vh 5vw 0 5vw;
+  font-size: 1em;
+  float: none;
   height: auto;
-  margin-top: 25px;
 }
 
+#contact-me-left, #contact-me-right {
+  padding: 10vh 5vw 10vh 5vw;
+  height: 90vh;
+  display: block;
+  text-align: center
+}
 #avatar {
-  width: 200px;
-  float: left;
-  margin-right: 25px;
+  width: 80%
+}
+
+#email {
+  width: 10vw;
+  margin-top:4vh;
+  min-height: 75px;
+  min-width: 75px
 }
 
 ::-webkit-input-placeholder { color:#D3D3D3; }
 ::-moz-placeholder { color:#D3D3D3; } /* firefox 19+ */
 :-ms-input-placeholder { color:#D3D3D3; } /* ie */
 input:-moz-placeholder { color:#D3D3D3; }
+
+@media (min-width: 992px)  {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+@media (max-width: 690px){
+  .main {
+  margin-left:5vh;
+  margin-right:5vh;
+  }
+  .even, .odd {
+    width: 100%;
+    background-color: #FCC000;
+  }
+  
+  #title, #portfolio, #philosophy, #social-network, #about-me-right, #contact-me-right{
+    background-color: #E64D01;
+  }
+
+}
+
