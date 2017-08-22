@@ -26,10 +26,7 @@ a {
 } 
 
 #nav{
-  margin: 0
-}
-
-.nav{
+  margin: 0;
   position: absolute;
   z-index: 10;
   left: 46%;
@@ -37,7 +34,6 @@ a {
   height: 0; 
   border-left: 4vw solid transparent;
   border-right: 4vw solid transparent;
-  
   border-top: 5vh solid #F8E0B4;
 }
 
@@ -58,6 +54,12 @@ a {
   padding: 0;
   right: 30vw
 }
+.glyphicon-menu-hamburger {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #burger-a {
   padding: 0 2vw 0 2vw
@@ -65,13 +67,6 @@ a {
 
 #burger-a:hover{
   background-color: transparent
-}
-
-.glyphicon-menu-hamburger {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 #row1, #row2, #row3, #row4 {
@@ -91,7 +86,7 @@ a {
 }
 
 .even{
-  background-color: #E64D01;
+  background-color: #D35217;
   height: 100%;
   display: -webkit-flex;
   display: flex;
@@ -213,7 +208,7 @@ input:-moz-placeholder { color:#D3D3D3; }
   }
   
   #title, #portfolio, #philosophy, #social-network, #about-me-right, #contact-me-right{
-    background-color: #E64D01;
+    background-color: #D35217;
   }
 
 }
