@@ -105,6 +105,14 @@ a {
   background-image: url(../images/maple.jpg)
 }
 
+#title{
+  background-image: url(../images/warm-home.png)
+}
+
+#pattern, #title {
+  background-size: 100% 100%
+}
+
 #welcome-message {
   text-align: left
 }
@@ -167,12 +175,7 @@ a {
    align-content: center;
 }
 
- #social-message{
-  display: block
-} 
-
  #social-h3 {
-  width: 100%;
   margin-top: 0;
   margin-bottom: 0
 } 
