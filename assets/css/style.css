@@ -97,7 +97,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: lightgray;
+  color: white;
   padding:0
 }
 
@@ -152,11 +152,6 @@ a {
   min-width: 75px
 }
 
-#social-network {
-  display:block;
-
-}
-
 #linkedin {
   height: 10vh;
   width: auto;
@@ -167,10 +162,30 @@ a {
   width: auto;
 }
 
-#github-a, #linkedin-a {
-  display:inline-block;
-  margin: auto;
+#social-network {
+   flex-wrap: wrap;
+   align-content: center;
 }
+
+ #social-message{
+  display: block
+} 
+
+ #social-h3 {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0
+} 
+#social-images {
+  text-align: center;
+  width: 100%
+}
+
+
+#github-a, #linkedin-a {
+  display: inline-block
+}
+
 
 ::-webkit-input-placeholder { color:#D3D3D3; }
 ::-moz-placeholder { color:#D3D3D3; } /* firefox 19+ */
