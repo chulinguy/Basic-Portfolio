@@ -10,6 +10,7 @@ setTimeout(()=>{
   )
 }, 500);
 
+$('[data-toggle="tooltip"]').tooltip(); 
 
 function bounce($elem) {
     $elem.effect('bounce', { times: 1, distance: 10 }, 1200, ()=>{

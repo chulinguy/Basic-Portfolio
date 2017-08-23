@@ -196,8 +196,12 @@ a {
 }
 
 .need-background, .dropdown-menu {
-    background-color: rgba(255,255,255,  0.6) 
-  }
+  background-color: rgba(255,255,255,  0.6) 
+}
+
+.white-text {
+  color: white
+}
 
 ::-webkit-input-placeholder { color:#D3D3D3; }
 ::-moz-placeholder { color:#D3D3D3; } /* firefox 19+ */
@@ -219,10 +223,12 @@ input:-moz-placeholder { color:#D3D3D3; }
   .even, .odd {
     width: 100%;
     background-color: #FCC000;
+    color: black
   }
   
-  #title, #portfolio, #philosophy, #social-network, #about-me-right, #contact-me-right{
+  #title, #portfolio, #philosophy, #social-network, #about-me-right, #contact-me-right, #RPS{
     background-color: #D35217;
+    color: white
   }
 
   #portfolio, #social-network {
