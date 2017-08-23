@@ -17,16 +17,19 @@
           <span class="glyphicon glyphicon-menu-hamburger"></span>
         </a>
         <ul class="dropdown-menu">
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact Me</a></li>
+          <li><a class='need-background' href="about.html">About Me</a></li>
+          <li><a class='need-background' href="portfolio.html">Portfolio</a></li>
+          <li><a class='need-background' href="contact.html">Contact Me</a></li>
         </ul>
       </li>
     </ul>
 
     <div class='row' id='row1'>
-      <div class='col-xs-6 odd' id='about-me'>
-        <a href='about.html'><h3 class='text-center'>About Me</h3></a>
+      <div class='col-xs-6 odd flex-wrap' id='about-me'>
+        <h3 class='text-center'>About Me</h3>
+        <div class='div-images'> 
+          <a href='about.html'><img class='icon' id='avatar-icon' src='assets/images/avatar-icon.png'></a>
+        </div>
       </div>
       <div class='col-xs-6 even' id='title'>
       </div>
@@ -39,13 +42,19 @@
           <h3>Welcome to my portfolio</h3>
         </div>
       </div>
-      <div class='col-xs-6 odd' id='portfolio'>
-        <a href='portfolio.html'><h3 class='text-center'>Portfolio</h3></a>
+      <div class='col-xs-6 odd flex-wrap' id='portfolio'>
+        <h3 class='text-center'>Portfolio</h3>
+        <div class='div-images'> 
+          <a href='portfolio.html'><img class='icon' id='portfolio-icon' src='assets/images/portfolio-icon.png'></a>
+        </div>
       </div>
     </div>
     <div class='row' id='row3'>
-      <div class='col-xs-6 odd' id='contact-me'>
-        <a href='contact.html'><h3 class='text-center'>Contact Me</h3></a>
+      <div class='col-xs-6 odd flex-wrap' id='contact-me'>
+        <h3 class='text-center'>Contact Me</h3>
+        <div class='div-images'> 
+          <a href='contact.html'><img class='icon' id='business-card-icon' src='assets/images/business-card-icon.png'></a>
+        </div>
       </div>
       <div class='col-xs-6 even' id='philosophy'>
         <div id='philosophy-message'>
@@ -58,12 +67,12 @@
     <div class='row' id='row4'>
       <div class='col-xs-6 even' id='pattern'>
       </div>
-      <div class='col-xs-6 odd' id='social-network'>
-         <div id='social-message'> 
+      <div class='col-xs-6 odd flex-wrap' id='social-network'>
+        <div> 
           <h3 class='text-center' id='social-h3'>Social Network</h3>
           <p></p>
-         </div> 
-        <div id='social-images'> 
+        </div> 
+        <div class='div-images'> 
           <a id='github-a' href='https://github.com/chulinguy'><img class='icon' id='github' src='assets/images/github-icon.png'></a>
           <a id='linkedin-a' href='https://www.linkedin.com/in/chulinguy/'><img class='icon' id='linkedin' src='assets/images/linkedin-icon.png'></a> 
         </div>

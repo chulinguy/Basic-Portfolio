@@ -3,6 +3,7 @@
     bounce($(this));
     }, function() { 
       $(this).attr('bounce', false);
+      $(this).stop();
     }
   )
 
