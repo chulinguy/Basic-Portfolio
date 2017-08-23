@@ -41,6 +41,7 @@ a {
 
 .dropdown {
   padding: 0;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,6 +59,7 @@ a {
 }
 .glyphicon-menu-hamburger {
   padding: 0;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,10 +151,9 @@ a {
 
 
 #email {
-  width: 10vw;
-  margin-top:4vh;
-  min-height: 75px;
-  min-width: 75px
+  width: 8vw;
+  min-height: 60px;
+  min-width: 60px
 }
 
 #linkedin {
@@ -194,6 +195,9 @@ a {
   display: inline-block
 }
 
+.need-background, .dropdown-menu {
+    background-color: rgba(255,255,255,  0.6) 
+  }
 
 ::-webkit-input-placeholder { color:#D3D3D3; }
 ::-moz-placeholder { color:#D3D3D3; } /* firefox 19+ */
@@ -232,9 +236,7 @@ input:-moz-placeholder { color:#D3D3D3; }
   #about-me-left {
     height: auto;
   }
-  .need-background {
-    background-color: white
-  }
+  
 
   #row-about {
     display:table
@@ -242,6 +244,10 @@ input:-moz-placeholder { color:#D3D3D3; }
 
   #avatar, #bio-container{
   width: 100%;
+  }
+
+  #contact-me-left, #contact-me-right {
+    height: 45vh
   }
 }
 
